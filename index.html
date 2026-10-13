@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTFOLIO — Swasti Gupta | B.Tech CSE</title>
+  <!-- Google Fonts: Syne (Ultra-bold Graphic Display) & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,500;0,600;0,700;0,800;1,700;1,800&family=Syne:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-orb orb-3"></div>
+  <div class="bg-grid"></div>
+
+  <!-- Header / Top Bar -->
+  <header class="top-nav">
+    <div class="brand">
+      <span class="brand-badge">B.TECH CSE '28</span>
+      <span class="brand-name">SWASTI GUPTA</span>
+    </div>
+    <div class="page-indicator">
+      <span class="indicator-label">SECTION</span>
+      <span id="pageNumber" class="indicator-val">01 / 05</span>
+    </div>
+    <div class="top-actions">
+      <span class="uni-tag">🏛️ JECRC UNIVERSITY</span>
+      <button class="top-contact-btn" onclick="goToPage(5)" title="Jump to Contact Info">
+        <span>💬 Contact Me</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Container / Slide Viewport -->
+  <main class="viewport">
+    
+    <!-- ================= PAGE 1: HOME ================= -->
+    <section class="page active" id="page-1" data-page="1">
+      <div class="hero-wrapper">
+        <div class="floating-tags">
+          <span class="tag tag-red">🔥 PASSIONATE & DRIVEN</span>
+          <span class="tag tag-pink">✨ EXTROVERTED & PEOPLE-FIRST</span>
+          <span class="tag tag-white">⚡ B.TECH 1ST YEAR (SEC-C)</span>
+          <span class="tag tag-red">🏎️ MOTORSPORTS & SKATING</span>
+        </div>
+
+        <div class="title-container">
+          <h1 class="mega-title">PORTFOLIO</h1>
+          <div class="title-sub-bar">
+            <span class="star-icon">✦</span>
+            <span class="sub-text">SWASTI GUPTA • SECTION C • CSE • ROLL NO: 26BCON0511</span>
+            <span class="star-icon">✦</span>
+          </div>
+        </div>
+
+        <p class="hero-pitch">
+          Welcome to my high-energy creative portfolio! Blending oratory spark, competitive athletic grit, 
+          and foundational engineering at <strong>JECRC University</strong>.
+        </p>
+
+        <div class="hero-actions">
+          <button class="btn-primary" onclick="goToPage(2)">
+            Explore About Me <span class="arrow">→</span>
+          </button>
+          <button class="btn-secondary" onclick="goToPage(5)">
+            View Achievements 🏆
+          </button>
+          <button class="btn-accent" onclick="goToPage(5)">
+            Get In Touch 💬
+          </button>
+        </div>
+
+        <!-- Direct Quick Contact Badges on Hero -->
+        <div class="hero-contact-strip">
+          <a href="tel:+918791356430" class="hero-contact-chip" title="Call Swasti Gupta">
+            <span class="chip-icon">📞</span>
+            <span class="chip-text">+91 8791356430</span>
+          </a>
+          <a href="https://www.linkedin.com/in/swasti-gupta-aab78a432?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" class="hero-contact-chip" title="LinkedIn Profile">
+            <span class="chip-icon">💼</span>
+            <span class="chip-text">LinkedIn Profile</span>
+          </a>
+          <a href="https://github.com/itsswastiyo" target="_blank" rel="noopener noreferrer" class="hero-contact-chip" title="GitHub Profile">
+            <span class="chip-icon">🐙</span>
+            <span class="chip-text">GitHub: @itsswastiyo</span>
+          </a>
+        </div>
+
+        <!-- Hero Stats Strip -->
+        <div class="hero-stats-strip">
+          <div class="stat-pill">
+            <span class="stat-num">93%</span>
+            <span class="stat-desc">High School (City Top 10)</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num">88%</span>
+            <span class="stat-desc">Secondary Education</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num">🥉</span>
+            <span class="stat-desc">City Roller Skating</span>
+          </div>
+          <div class="stat-pill">
+            <span class="stat-num">2X</span>
+            <span class="stat-desc">Debate Champion</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PAGE 2: ABOUT ME ================= -->
+    <section class="page" id="page-2" data-page="2">
+      <div class="page-header">
+        <span class="section-badge">PAGE 02</span>
+        <h2 class="section-title">ABOUT ME</h2>
+        <p class="section-subtitle">Identity, personality, and the passions that keep me buzzing with energy every day.</p>
+      </div>
+
+      <div class="about-grid">
+        <!-- Identity Card -->
+        <div class="designer-card id-card">
+          <div class="card-badge">ACADEMIC IDENTITY</div>
+          <h3 class="student-name">Swasti Gupta</h3>
+          <ul class="id-details">
+            <li>
+              <span class="label">Branch</span>
+              <span class="val highlight">B.Tech Computer Science & Engg.</span>
+            </li>
+            <li>
+              <span class="label">Section</span>
+              <span class="val">Section C</span>
+            </li>
+            <li>
+              <span class="label">Roll No.</span>
+              <span class="val badge-roll">26BCON0511</span>
+            </li>
+            <li>
+              <span class="label">University</span>
+              <span class="val">JECRC University</span>
+            </li>
+            <li>
+              <span class="label">Academic Year</span>
+              <span class="val">1st Year (Class of 2028)</span>
+            </li>
+          </ul>
+
+          <div class="id-card-points">
+            <div class="sub-heading-mini">KEY HIGHLIGHTS:</div>
+            <ul class="clean-bullets">
+              <li>1st Year B.Tech CSE student building core analytical and software abilities</li>
+              <li>Energetic campus participant keen on tech clubs, public speaking, and community building</li>
+              <li>Always curious to learn, explore new tools, and connect with fellow creators</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Personality & Social Vibe Card -->
+        <div class="designer-card vibe-card">
+          <div class="card-badge">THE PERSONALITY</div>
+          <h3 class="card-title">Extroverted & People-First</h3>
+          <p class="vibe-text">
+            I am a true people-person through and through! I thrive in vibrant conversations, 
+            connecting with diverse perspectives, and sparking energy in any room I walk into.
+          </p>
+          
+          <div class="personality-points">
+            <div class="sub-heading-mini">HOW I WORK & CONNECT:</div>
+            <ul class="clean-bullets">
+              <li><strong>Loves Talking to People:</strong> Naturally conversational, approachable, and eager to exchange ideas.</li>
+              <li><strong>Extroverted Spark:</strong> Thrives in group discussions, brainstorming huddles, and collaborative projects.</li>
+              <li><strong>Positivity & Energy:</strong> Brings genuine enthusiasm and upbeat motivation to student teams.</li>
+              <li><strong>Empathetic Listener:</strong> Balances confident expression with attentive, open-minded listening.</li>
+            </ul>
+          </div>
+
+          <div class="pill-cloud">
+            <span class="pill">🗣️ Great Conversationalist</span>
+            <span class="pill">⚡ Boundless Energy</span>
+            <span class="pill">🤝 Natural Collaborator</span>
+            <span class="pill">🌟 Empathetic Listener</span>
+          </div>
+        </div>
+
+        <!-- Interests Card -->
+        <div class="designer-card interests-card">
+          <div class="card-badge">MY PASSIONS & INTERESTS</div>
+          <p class="interests-lead">What fuels my curiosity and downtime outside the lecture halls:</p>
+          
+          <div class="interest-items">
+            <!-- Motorsports -->
+            <div class="interest-box">
+              <div class="icon-circle">🏎️</div>
+              <div class="interest-info">
+                <h4>Watching Motorsports</h4>
+                <ul class="interest-bullets">
+                  <li>Passionate follower of high-speed racing, track aerodynamics, and Formula strategies</li>
+                  <li>Fascinated by engineering precision, pit-stop teamwork, and split-second tactics</li>
+                  <li>Loves the pure adrenaline, speed, and mental tenacity required on racing circuits</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Skating -->
+            <div class="interest-box">
+              <div class="icon-circle">🛼</div>
+              <div class="interest-info">
+                <h4>Roller Skating</h4>
+                <ul class="interest-bullets">
+                  <li>Active competitive skater who bagged a bronze medal in a city-wide championship</li>
+                  <li>Loves the rhythm, wind speed, balance, and physical agility on wheels</li>
+                  <li>Skating teaches discipline, spatial awareness, and resilience after every fall</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Reading -->
+            <div class="interest-box">
+              <div class="icon-circle">📖</div>
+              <div class="interest-info">
+                <h4>Reading Books</h4>
+                <ul class="interest-bullets">
+                  <li>Dedicated reader who explores inspirational non-fiction, narratives, and big ideas</li>
+                  <li>Draws creative communication analogies and perspective from broad reading</li>
+                  <li>Constantly building knowledge, vocabulary, and empathy through pages</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PAGE 3: EDUCATION ================= -->
+    <section class="page" id="page-3" data-page="3">
+      <div class="page-header">
+        <span class="section-badge">PAGE 03</span>
+        <h2 class="section-title">EDUCATION</h2>
+        <p class="section-subtitle">Consistent academic dedication, strong scientific foundations, and continuous growth.</p>
+      </div>
+
+      <div class="edu-grid">
+        <!-- B.Tech Current -->
+        <div class="designer-card edu-card active-stage">
+          <div class="edu-top-row">
+            <div class="edu-status-badge">CURRENTLY PURSUING</div>
+            <span class="edu-badge-tag">YEAR 1</span>
+          </div>
+          <div class="edu-year">2024 - 2028 • B.TECH CSE</div>
+          <h3 class="edu-degree">Computer Science & Engineering</h3>
+          <div class="edu-institute">🏛️ JECRC University, Jaipur</div>
+          <ul class="edu-points">
+            <li>Currently studying <strong>1st Year B.Tech CSE</strong> in <strong>Section C</strong></li>
+            <li>Official Student Roll Number: <strong>26BCON0511</strong></li>
+            <li>Diving into foundational programming, problem-solving, and computer science concepts</li>
+            <li>Engaging in interactive college tech workshops, hackathons, and coding clubs</li>
+            <li>Fostering collaborative team habits and engineering curiosity for future projects</li>
+          </ul>
+        </div>
+
+        <!-- Secondary Edu (12th) -->
+        <div class="designer-card edu-card">
+          <div class="edu-top-row">
+            <div class="score-chip">88%</div>
+            <span class="edu-badge-tag">CLASS XII</span>
+          </div>
+          <div class="edu-year">SECONDARY EDUCATION</div>
+          <h3 class="edu-degree">Senior Secondary Schooling</h3>
+          <div class="edu-institute">🏫 Board Examination Result</div>
+          <ul class="edu-points">
+            <li>Achieved a commendable <strong>88% aggregate</strong> in Secondary Education</li>
+            <li>Mastered core scientific and mathematical analytical foundations</li>
+            <li>Maintained rigorous academic discipline during demanding board preparations</li>
+            <li>Successfully balanced intensive board study alongside sports and debate events</li>
+            <li>Cultivated sharp problem-solving habits that aid engineering study</li>
+          </ul>
+        </div>
+
+        <!-- High School (10th) -->
+        <div class="designer-card edu-card highlight-card">
+          <div class="edu-top-row">
+            <div class="score-chip red-chip">93%</div>
+            <span class="city-rank-badge">🏆 CITY TOP 10</span>
+          </div>
+          <div class="edu-year">HIGH SCHOOL (CLASS X)</div>
+          <h3 class="edu-degree">High School Certificate</h3>
+          <div class="edu-institute">🌟 City Merit Distinction</div>
+          <ul class="edu-points">
+            <li>Graduated with an extraordinary <strong>93% aggregate score</strong></li>
+            <li><strong>Ranked among the Top 10 students across the entire city</strong></li>
+            <li>Recognized for outstanding academic excellence and consistent leadership</li>
+            <li>Set high benchmarks in science, mathematics, language, and social studies</li>
+            <li>Served as an inspiring academic role model in school</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PAGE 4: SKILLS ================= -->
+    <section class="page" id="page-4" data-page="4">
+      <div class="page-header">
+        <span class="section-badge">PAGE 04</span>
+        <h2 class="section-title">SKILLS & ABILITIES</h2>
+        <p class="section-subtitle">What I bring to the table: oratory prowess, mental grit, and foundational tech drive.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Skill 1: Public Speaking -->
+        <div class="designer-card skill-card featured">
+          <div class="skill-icon-wrap">🎙️</div>
+          <div class="skill-content">
+            <span class="skill-tag">HIGHLY SKILLED</span>
+            <h3 class="skill-title">Public Speaking & Presenting</h3>
+            <ul class="skill-bullets">
+              <li>Commanding stage presence with natural charisma, projection, and confidence</li>
+              <li>Exceptional articulation, persuasive rhetoric, and dynamic voice modulation</li>
+              <li>Proven track record winning competitive inter-school and house debate tournaments</li>
+              <li>Adept at creating visual presentations and communicating ideas clearly to large crowds</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Skill 2: Working Under Pressure -->
+        <div class="designer-card skill-card">
+          <div class="skill-icon-wrap">⚡</div>
+          <div class="skill-content">
+            <span class="skill-tag">HIGH RESILIENCE</span>
+            <h3 class="skill-title">Working Under Pressure</h3>
+            <ul class="skill-bullets">
+              <li>Stays calm, composed, and focused when facing tight deadlines or crunch time</li>
+              <li>Swift situational adaptation and structured decision-making in competitive environments</li>
+              <li>Demonstrated mental resilience through high-stakes debates, exams, and sports</li>
+              <li>Helps team members remain organized and motivated under stressful scenarios</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Skill 3: Coding (Currently Learning) -->
+        <div class="designer-card skill-card featured-learning">
+          <div class="skill-icon-wrap">💻</div>
+          <div class="skill-content">
+            <span class="skill-tag learning-tag">CURRENTLY LEARNING</span>
+            <h3 class="skill-title">Coding & Software Fundamentals</h3>
+            <ul class="skill-bullets">
+              <li>Actively learning core programming concepts, computational logic, and algorithms</li>
+              <li>Practicing front-end web fundamentals (HTML5, modern CSS3, responsive layouts, JavaScript)</li>
+              <li>Exploring foundational languages and problem-solving through hands-on exercises</li>
+              <li>Driven to expand skill set into full-stack development, software engineering, and open source</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Skill 4: People & Communication -->
+        <div class="designer-card skill-card">
+          <div class="skill-icon-wrap">🤝</div>
+          <div class="skill-content">
+            <span class="skill-tag">NATURAL STRENGTH</span>
+            <h3 class="skill-title">People & Communication Skills</h3>
+            <ul class="skill-bullets">
+              <li>Extroverted ease in networking, building genuine rapport, and bridging teams</li>
+              <li>Active listening combined with empathetic, transparent verbal communication</li>
+              <li>Natural collaborator who thrives in team initiatives and student communities</li>
+              <li>Brings an inclusive and inspiring environment to any project or study circle</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PAGE 5: ACHIEVEMENTS & CONTACT ================= -->
+    <section class="page" id="page-5" data-page="5">
+      <div class="page-header">
+        <span class="section-badge">PAGE 05</span>
+        <h2 class="section-title">ACHIEVEMENTS & CONTACT</h2>
+        <p class="section-subtitle">Moments of competitive triumph, plus direct channels to connect and collaborate.</p>
+      </div>
+
+      <!-- Achievements Section -->
+      <div class="achieve-grid">
+        <!-- Achievement 1: High School Top 10 -->
+        <div class="designer-card achieve-card">
+          <div class="trophy-badge">🏆 TOP 10 RANK</div>
+          <div class="achieve-icon">🌟</div>
+          <h3 class="achieve-heading">City Top 10 in High School</h3>
+          <ul class="achieve-bullets">
+            <li>Secured an outstanding <strong>93% aggregate</strong> in High School Board Examinations</li>
+            <li>Ranked among the <strong>Top 10 students across the entire city</strong></li>
+            <li>Honored for outstanding academic diligence and consistent excellence</li>
+          </ul>
+          <div class="achieve-tag">Academic Merit • City-Wide Standing</div>
+        </div>
+
+        <!-- Achievement 2: Skating Bronze -->
+        <div class="designer-card achieve-card">
+          <div class="trophy-badge bronze">🥉 BRONZE MEDAL</div>
+          <div class="achieve-icon">🛼</div>
+          <h3 class="achieve-heading">City-Wide Skating Championship</h3>
+          <ul class="achieve-bullets">
+            <li>Won the prestigious <strong>Bronze Medal</strong> in city-wide roller skating</li>
+            <li>Competed against top-tier competitive speed skaters across the city</li>
+            <li>Reflects years of athletic training, speed stamina, balance, and grit</li>
+          </ul>
+          <div class="achieve-tag">Athletic Distinction • Roller Speed Skating</div>
+        </div>
+
+        <!-- Achievement 3: Debate 2x Champ -->
+        <div class="designer-card achieve-card">
+          <div class="trophy-badge gold">🥇 2X CHAMPION</div>
+          <div class="achieve-icon">🎙️</div>
+          <h3 class="achieve-heading">School Debate Championship</h3>
+          <ul class="achieve-bullets">
+            <li>Crowned <strong>Debate Champion twice</strong> in school championships</li>
+            <li>Praised by judges for sharp counter-rebuttals, poise, and structured rhetoric</li>
+            <li>Recognized as one of the school's most formidable public speakers</li>
+          </ul>
+          <div class="achieve-tag">Oratory • Spontaneous Debate • 2x Winner</div>
+        </div>
+      </div>
+
+      <!-- ================= COMPREHENSIVE CONTACT HUB ================= -->
+      <div class="designer-card contact-hub-card">
+        <div class="contact-header">
+          <span class="hub-badge">LET'S CONNECT</span>
+          <h3 class="hub-title">Ready to collaborate, innovate & create together!</h3>
+          <p class="hub-subtitle">
+            Whether you want to discuss student projects, tech ideas, motorsports, or need a passionate speaker — feel free to reach out directly.
+          </p>
+        </div>
+
+        <div class="contact-methods-grid">
+          <!-- Phone Card -->
+          <div class="contact-box phone-box">
+            <div class="contact-icon-wrap">📞</div>
+            <div class="contact-box-content">
+              <span class="contact-type">DIRECT PHONE NUMBER</span>
+              <a href="tel:+918791356430" class="contact-value" title="Call directly">+91 8791356430</a>
+              <div class="contact-buttons-group">
+                <a href="tel:+918791356430" class="mini-btn btn-call">
+                  <span>Call Now</span>
+                </a>
+                <a href="https://wa.me/918791356430" target="_blank" rel="noopener noreferrer" class="mini-btn btn-whatsapp">
+                  <span>WhatsApp</span>
+                </a>
+                <button class="mini-btn btn-copy" onclick="copyContact('8791356430', this)" title="Copy number">
+                  <span>📋 Copy</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- LinkedIn Card -->
+          <div class="contact-box linkedin-box">
+            <div class="contact-icon-wrap">💼</div>
+            <div class="contact-box-content">
+              <span class="contact-type">PROFESSIONAL NETWORK</span>
+              <span class="contact-handle">Swasti Gupta on LinkedIn</span>
+              <div class="contact-buttons-group">
+                <a href="https://www.linkedin.com/in/swasti-gupta-aab78a432?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer" class="mini-btn btn-linkedin">
+                  <span>Open LinkedIn Profile ↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- GitHub Card -->
+          <div class="contact-box github-box">
+            <div class="contact-icon-wrap">🐙</div>
+            <div class="contact-box-content">
+              <span class="contact-type">CODE REPOSITORY</span>
+              <span class="contact-handle">@itsswastiyo on GitHub</span>
+              <div class="contact-buttons-group">
+                <a href="https://github.com/itsswastiyo" target="_blank" rel="noopener noreferrer" class="mini-btn btn-github">
+                  <span>Open GitHub Profile ↗</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Student Availability Points -->
+        <div class="contact-availability-strip">
+          <div class="avail-title">STUDENT COLLABORATION & AVAILABILITY:</div>
+          <ul class="avail-bullets">
+            <li>• Open for hackathons, coding workshops, and B.Tech CSE study initiatives</li>
+            <li>• Available for inter-college debate competitions and public speaking panels</li>
+            <li>• Based at JECRC University, Jaipur — reachable via call, WhatsApp, LinkedIn, and GitHub</li>
+          </ul>
+        </div>
+
+        <div class="hub-footer-action">
+          <button class="btn-primary" onclick="goToPage(1)">
+            Back to Home ⚡
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Side Floating Navigation Arrows -->
+  <button class="nav-arrow prev-arrow" id="prevBtn" onclick="changePage(-1)" title="Previous Page (Left Arrow)">
+    <span>‹</span>
+  </button>
+  <button class="nav-arrow next-arrow" id="nextBtn" onclick="changePage(1)" title="Next Page (Right Arrow)">
+    <span>›</span>
+  </button>
+
+  <!-- Floating Bottom Dock Navigation -->
+  <nav class="bottom-dock">
+    <button class="dock-btn active" data-target="1" onclick="goToPage(1)">
+      <span class="dock-icon">🏠</span>
+      <span class="dock-label">Home</span>
+    </button>
+    <button class="dock-btn" data-target="2" onclick="goToPage(2)">
+      <span class="dock-icon">👤</span>
+      <span class="dock-label">About</span>
+    </button>
+    <button class="dock-btn" data-target="3" onclick="goToPage(3)">
+      <span class="dock-icon">🎓</span>
+      <span class="dock-label">Education</span>
+    </button>
+    <button class="dock-btn" data-target="4" onclick="goToPage(4)">
+      <span class="dock-icon">⚡</span>
+      <span class="dock-label">Skills</span>
+    </button>
+    <button class="dock-btn" data-target="5" onclick="goToPage(5)">
+      <span class="dock-icon">🏆</span>
+      <span class="dock-label">Achievements & Contact</span>
+    </button>
+  </nav>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" class="toast">Number copied to clipboard! ✨</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
